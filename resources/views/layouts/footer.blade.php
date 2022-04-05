@@ -7,7 +7,7 @@
             <div class="row">
                 <div class="col-md-3 col-lg-3 col-xs-6 col">
                     <strong class="logo-footer">
-                        <a href="{{Route('home')}}"><img src="{{asset ('assets/images/media/index1/logo.jpg') }}"  width="100" height="100" alt="logo"></a>
+                        <a href="{{Route('home')}}"><img src="{{asset ('assets/images/media/index1/logo.png') }}"  width="100" height="100" alt="logo"></a>
                     </strong>
 
                     <table class="address">
@@ -71,7 +71,9 @@
                     </ul>
                     </div>
                 </div>
-                <div class="col-md-3 col-lg-3 col-xs-6 col">
+                <div class="col-md-3 col-lg-3 col-xs-6 col " style="display: flex;
+                justify-content: space-between;
+                width: 50vw;">
                     <div class="block-newletter">
                         <div class="block-title">NEWSLETTER</div>
                         <div class="block-content">
@@ -103,16 +105,13 @@
             </div>
             <div class="block-content">
 
-                    <img alt="payment" src="assets/images/media/index1/payment1.png">
-                    <img alt="payment" src="assets/images/media/index1/payment2.png">
-                    <img alt="payment" src="assets/images/media/index1/payment3.png">
-                    <img alt="payment" src="assets/images/media/index1/payment4.png">
                     <img alt="payment" src="assets/images/media/index1/payment5.png">
-                    <img alt="payment" src="assets/images/media/index1/payment6.png">
-                    <img alt="payment" src="assets/images/media/index1/payment7.png">
-                    <img alt="payment" src="assets/images/media/index1/payment8.png">
-                    <img alt="payment" src="assets/images/media/index1/payment9.png">
-                    <img alt="payment" src="assets/images/media/index1/payment10.png">
+                    <img alt="payment" src="assets/images/media/index1/payment6.png" height="10%" width="10%">
+                    <img alt="payment" src="assets/images/media/index1/payment11.png" height="10%" width="10%">
+                    <img alt="payment" src="assets/images/media/index1/payment12.png" height="10%" width="10%">
+                    <img alt="payment" src="assets/images/media/index1/payment13.png" height="10%" width="10%">
+                    <img alt="payment" src="assets/images/media/index1/payment14.png" height="10%" width="10%">
+
 
             </div>
         </div>

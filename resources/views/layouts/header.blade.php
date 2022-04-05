@@ -109,7 +109,7 @@
 
                             <!-- logo -->
                             <strong class="logo">
-                                <a href="{{Route('home')}}"><img src="{{asset ('assets/images/media/index1/logo.jpg')}}"  width="100" height="100"  alt="logo"></a>
+                                <a href="{{Route('home')}}"><img src="{{asset ('assets/images/media/index1/logo.png')}}"  width="100" height="100"  alt="logo"></a>
                             </strong>
 
                         </div>
@@ -861,7 +861,7 @@
                         <div class="dropdown setting">
                             <a data-toggle="dropdown" role="button" href="#" class="dropdown-toggle "><span>Settings</span> <i aria-hidden="true" class="fa fa-user"></i></a>
                             <div class="dropdown-menu  ">
-                                <div class="switcher  switcher-language">
+                            {{--     <div class="switcher  switcher-language">
                                     <strong class="title">Select language</strong>
                                     <ul class="switcher-options ">
                                         <li class="switcher-option">
@@ -906,7 +906,7 @@
                                         </li>
 
                                     </ul>
-                                </div>
+                                </div> --}}
                                 <ul class="account">
                                     <li><a href="#">Wishlist</a></li>
                                     <li><a href="#">My Account</a></li>
@@ -923,4 +923,4 @@
 
         </header><!-- end HEADER -->
 
-<h1>Main Part</h1>
+
