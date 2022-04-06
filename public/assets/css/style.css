@@ -3030,7 +3030,7 @@ select.input-sm {
   font-size: 14px;
 }
 .header-opt-1 .header-content .block-search .form-search .btn-search:hover {
-  background-color: #ff0040;
+  background-color: #f05d25; /* #ff0040; */
 }
 .header-opt-1 .header-content .block-minicart {
   float: right;
