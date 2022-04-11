@@ -40,8 +40,8 @@
                     <div class="links">
                     <h3 class="title">My Account</h3>
                     <ul>
-                        <li><a href="#">My Order</a></li>
-                        <li><a href="#">My Wishlist</a></li>
+                        <li><a href="{{Route('cartsummary')}}">My Order</a></li>
+                        <li><a href="{{Route('wishlist')}}">My Wishlist</a></li>
                         <li><a href="#">My Credit Slip</a></li>
                         <li><a href="#">My Addresses</a></li>
                         <li><a href="#">My Account</a></li>

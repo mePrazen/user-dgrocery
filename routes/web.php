@@ -4,6 +4,7 @@ use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\HomeController;
 use App\Http\Controllers\CategoryController;
 use App\Http\Controllers\CartController;
+use App\Http\Controllers\WishlistController;
 
 /*
 |--------------------------------------------------------------------------
@@ -21,4 +22,5 @@ Route::get('/contact','HomeController@contact' )->name('contact');
 Route::get('/checkout','HomeController@checkout' )->name('checkout');
 Route::get('/category','CategoryController@category')->name('category');
 Route::get('/cart','CartController@cartsummary')->name('cartsummary');
+Route::get('/wishlist','WishlistController@wishlist')->name('wishlist');
 
