@@ -118,7 +118,7 @@
 
                             <!-- block mini cart -->
                             <div class="block-minicart dropdown">
-                                <a class="dropdown-toggle" href="#" role="button" data-toggle="dropdown">
+                                <a class="dropdown-toggle" href="{{Route('cartsummary')}}" role="button" data-toggle="dropdown">
                                     <span class="cart-icon"></span>
                                     <span class="counter qty">
                                         <span class="cart-text">Shopping Cart</span>
@@ -188,7 +188,7 @@
                                                     <span>Shopping bag</span>
                                                 </a> -->
                                                 <button class="btn btn-checkout" type="button" title="Check Out">
-                                                    <span>Checkout</span>
+                                                   <a class="hello" href="{{Route('checkout')}}"><span style="color:white">Checkout</span></a>
                                                 </button>
                                             </div>
                                         </div>
@@ -562,7 +562,7 @@
 
                             <ul class="ui-menu">
                                 <li class="parent parent-megamenu active">
-                                    <a href="index-2.html">Home</a>
+                                    <a href="/">Home</a>
                                     <span class="toggle-submenu"></span>
                                     <div class="megamenu drop-menu">
                                         <ul>
